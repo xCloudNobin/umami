@@ -46,7 +46,7 @@ export default async function ({ children }) {
         <meta name="theme-color" content="#2f2f2f" media="(prefers-color-scheme: dark)" />
         <meta name="robots" content="noindex,nofollow" />
       </head>
-      <body data-zdt="zdt-release-r1">
+      <body data-zdt="zdt-release-r2">
         <Suspense>
           <Providers config={config} flags={flags}>
             {children}

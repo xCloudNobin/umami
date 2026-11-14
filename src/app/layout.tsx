@@ -17,8 +17,6 @@ const inter = Inter({
   variable: '--font-inter',
 });
 
-// ZDT_INTENTIONAL_BUILD_FAIL
-const __zdt_fail = "this-string-is-intentionally-unclosed
 export default async function ({ children }) {
   if (process.env.DISABLE_UI) {
     return (
